@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 149
+    length: 24
+    placeholder_text: '...  # используй ключевую у функции min, по которой она долна
+      определять минимальный элемент'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

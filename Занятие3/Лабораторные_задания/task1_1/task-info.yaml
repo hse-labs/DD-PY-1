@@ -1,0 +1,18 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 51
+    length: 30
+    placeholder_text: 'with ... as file:  # TODO открыть указатель на файл'
+  - offset: 90
+    length: 49
+    placeholder_text: '...  # TODO файл является итератором, который работает с циклом
+      for в построчном режиме'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: input.txt
+  visible: true

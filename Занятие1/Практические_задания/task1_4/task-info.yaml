@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 42
+    length: 27
+    placeholder_text: '[word.upper() for word in words]  # TODO перевести слова в
+      верхний регистр c помощью map'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

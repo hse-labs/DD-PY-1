@@ -1,0 +1,17 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 43
+    length: 17
+    placeholder_text: '[hex(num) for num in numbers]  # TODO заменить на итератор
+      map'
+  - offset: 86
+    length: 26
+    placeholder_text: '...:  # TODO используя zip объединить число и его шестнадцатеричное
+      представление'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

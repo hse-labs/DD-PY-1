@@ -1,0 +1,19 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 91
+    length: 69
+    placeholder_text: '[i ** 2 for i in iterator_numbers if i % 2 == 0]  # TODO заменить
+      на map и filter'
+  - offset: 170
+    length: 15
+    placeholder_text: 'num in numbers:  # TODO напечатать первые 10 чисел'
+  - offset: 200
+    length: 14
+    placeholder_text: 'num)  # TODO с помощью next получать следующий элемент от итератора'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

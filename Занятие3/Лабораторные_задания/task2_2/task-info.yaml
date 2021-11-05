@@ -1,0 +1,19 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 79
+    length: 64
+    placeholder_text: '...  # TODO считать содержимое json файл input.json'
+  - offset: 149
+    length: 79
+    placeholder_text: '...  # TODO записать содержимое в json файл output.json с отступами'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: input.json
+  visible: true
+- name: output.json
+  visible: true

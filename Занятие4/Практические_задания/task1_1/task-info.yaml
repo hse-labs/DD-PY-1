@@ -1,0 +1,17 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 229
+    length: 7
+    placeholder_text: '...)  # TODO записать регулярное выражение для поиска слова
+      любой длины'
+  - offset: 291
+    length: 22
+    placeholder_text: ')  # TODO вызвать от регулярного выражения методы search и
+      group'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

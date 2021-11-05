@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 134
+    length: 31
+    placeholder_text: '[get_distance(point) for point in points]  # TODO записать
+      через map'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

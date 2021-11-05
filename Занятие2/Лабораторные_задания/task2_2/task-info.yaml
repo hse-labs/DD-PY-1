@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 57
+    length: 67
+    placeholder_text: '...  # TODO написать функцию-генератор возвращающую целые числа'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

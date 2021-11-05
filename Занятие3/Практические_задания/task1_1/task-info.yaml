@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 256
+    length: 19
+    placeholder_text: '# TODO c помощью метода строки strip очистить строку от непечатыемых
+      символов'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: input.txt
+  visible: true

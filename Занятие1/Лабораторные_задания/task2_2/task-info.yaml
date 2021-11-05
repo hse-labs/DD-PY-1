@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 126
+    length: 38
+    placeholder_text: '[num for num in list_numbers if num < 0])  # TODO заменить
+      list comprehension на filter'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

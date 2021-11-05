@@ -1,0 +1,16 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 225
+    length: 10
+    placeholder_text: '...)  # TODO составить регулярное выражение, которое находит
+      первые две буквы слова'
+  - offset: 286
+    length: 15
+    placeholder_text: ')  # TODO найти первые 2 буквы всех слов в строке'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

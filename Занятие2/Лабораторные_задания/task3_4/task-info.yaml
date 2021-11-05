@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 54
+    length: 67
+    placeholder_text: 'fn()  # TODO перевести результат исходной функции в верхний
+      регистр'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

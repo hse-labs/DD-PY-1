@@ -1,0 +1,16 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 222
+    length: 16
+    placeholder_text: '# TODO зафиксировать время до начала выполнения функции'
+  - offset: 284
+    length: 64
+    placeholder_text: '# TODO зафиксировать время после выполнения'
+  - offset: 466
+    length: 15
+    placeholder_text: '# TODO задекорировать функцию'
+- name: __init__.py
+  visible: false

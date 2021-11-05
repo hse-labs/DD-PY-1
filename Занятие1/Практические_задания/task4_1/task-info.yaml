@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 343
+    length: 23
+    placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
+  - offset: 495
+    length: 23
+    placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

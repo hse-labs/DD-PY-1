@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 69
+    length: 13
+    placeholder_text: '...:  # TODO повторить переменную a 4 раза'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

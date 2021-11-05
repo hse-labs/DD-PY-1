@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 240
+    length: 11
+    placeholder_text: '[2] * len(my_floats)))  # TODO заменить на repeat'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

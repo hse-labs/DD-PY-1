@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 76
+    length: 72
+    placeholder_text: '# TODO распечатать с столбик первые 10 чисел бесконечного итератора'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
