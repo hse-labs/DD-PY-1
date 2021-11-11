@@ -7,7 +7,7 @@ def task() -> str:
         "Cyan"
     ]
 
-    return min(list_words, key=len)
+    return max(list_words, key=len)
 
 
 if __name__ == "__main__":
