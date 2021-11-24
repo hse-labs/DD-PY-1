@@ -12,5 +12,3 @@ files:
   visible: false
 - name: input.txt
   visible: true
-- name: output.txt
-  visible: true

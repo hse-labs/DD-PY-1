@@ -13,5 +13,3 @@ files:
   visible: false
 - name: input.json
   visible: true
-- name: output.json
-  visible: true
