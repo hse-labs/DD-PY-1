@@ -8,4 +8,5 @@ output.json
 
 *.txt
 !input.txt
+!input_[12].txt
 !**/tests/output.txt
