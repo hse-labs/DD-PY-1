@@ -3,3 +3,9 @@ venv/
 
 .coursecreator/
 *.zip
+
+output.json
+
+*.txt
+!input.txt
+!**/tests/output.txt
