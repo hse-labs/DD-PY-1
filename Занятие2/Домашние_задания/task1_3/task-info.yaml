@@ -2,6 +2,10 @@ type: output
 files:
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 46
+    length: 82
+    placeholder_text: '...  # TODO генератор подсписков'
 - name: __init__.py
   visible: false
 - name: tests/output.txt

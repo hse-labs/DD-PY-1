@@ -5,7 +5,7 @@ files:
   placeholders:
   - offset: 57
     length: 67
-    placeholder_text: '...  # TODO написать функцию-генератор возвращающую целые числа'
+    placeholder_text: '...  # TODO написать функцию-генератор возвращающую числа из бесконечной арифметической прогрессии'
 - name: __init__.py
   visible: false
 - name: tests/output.txt

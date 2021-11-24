@@ -1,5 +1,7 @@
 type: output
 files:
+- name: __init__.py
+  visible: false
 - name: main.py
   visible: true
   placeholders:
@@ -7,7 +9,5 @@ files:
     length: 24
     placeholder_text: '...  # используй ключевую у функции min, по которой она долна
       определять минимальный элемент'
-- name: __init__.py
-  visible: false
 - name: tests/output.txt
   visible: false

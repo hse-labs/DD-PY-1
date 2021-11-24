@@ -1,12 +1,12 @@
 type: output
 files:
+- name: __init__.py
+  visible: false
 - name: main.py
   visible: true
   placeholders:
-  - offset: 153
-    length: 33
+  - offset: 149
+    length: 37
     placeholder_text: '...)  # TODO записать выражение-генератор'
-- name: __init__.py
-  visible: false
 - name: tests/output.txt
   visible: false

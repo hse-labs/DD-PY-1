@@ -2,6 +2,11 @@ type: output
 files:
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 38
+    length: 91
+    placeholder_text: '# TODO записать генератор, перебирающий двумерный список, как
+      будто он одномерный'
 - name: __init__.py
   visible: false
 - name: tests/output.txt

@@ -2,5 +2,9 @@ type: theory
 files:
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 28
+    length: 75
+    placeholder_text: '...  # TODO функция-генератор для попарных значений'
 - name: __init__.py
   visible: false

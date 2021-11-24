@@ -2,5 +2,16 @@ type: theory
 files:
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 0
+    length: 245
+    placeholder_text: '# TODO записать декоратор output_type_list согласно условию
+      задачи'
+  - offset: 248
+    length: 17
+    placeholder_text: '# TODO задекорировать функцию'
+  - offset: 309
+    length: 17
+    placeholder_text: '# TODO задекорировать функцию'
 - name: __init__.py
   visible: false

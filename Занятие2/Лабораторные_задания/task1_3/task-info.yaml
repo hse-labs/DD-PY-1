@@ -2,6 +2,10 @@ type: output
 files:
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 43
+    length: 43
+    placeholder_text: '# TODO записать выражение-генератор'
 - name: __init__.py
   visible: false
 - name: tests/output.txt

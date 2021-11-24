@@ -11,5 +11,5 @@ if __name__ == "__main__":
         [7, 8, 9]
     ]
 
-    for ceil in flatten(matrix):
+    for ceil in flatten(matrix):  # с помощью flatten итерируемся сразу по значениям, а не по строкам
         print(ceil)
