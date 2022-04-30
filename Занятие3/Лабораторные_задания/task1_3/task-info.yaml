@@ -10,3 +10,5 @@ files:
   visible: false
 - name: tests/output.txt
   visible: false
+- name: output.txt
+  visible: true

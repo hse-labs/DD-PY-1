@@ -4,3 +4,8 @@ files:
   visible: false
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 428
+    length: 2
+    placeholder_text: '()  # TODO подставьте различные позиционные и именованные аргументы
+      и проанализируйте результат'

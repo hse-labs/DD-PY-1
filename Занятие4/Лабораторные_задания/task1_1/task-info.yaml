@@ -6,6 +6,9 @@ files:
   - offset: 60
     length: 225
     placeholder_text: '...  # TODO записать ругулярное выражения для поиска книги'
+  - offset: 601
+    length: 10
+    placeholder_text: '...):  # TODO считать весь файл целиком'
 - name: __init__.py
   visible: false
 - name: books.md

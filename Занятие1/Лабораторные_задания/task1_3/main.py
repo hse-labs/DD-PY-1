@@ -1,6 +1,6 @@
 def task() -> str:
     list_words = [
-        "Goldenrod",
+        "Blue",
         "Purple",
         "Salmon",
         "Turquoise",

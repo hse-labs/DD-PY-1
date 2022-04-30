@@ -1,14 +1,17 @@
-type: output
+type: theory
 files:
 - name: main.py
   visible: true
   placeholders:
   - offset: 0
-    length: 125
-    placeholder_text: |-
-      def header_footer():  # TODO написать декоратор
-          ...
+    length: 354
+    placeholder_text: '# TODO записать декоратор min_list_items согласно условию
+      задачи'
+  - offset: 357
+    length: 15
+    placeholder_text: '# TODO задекорировать функцию'
+  - offset: 419
+    length: 15
+    placeholder_text: '# TODO задекорировать функцию'
 - name: __init__.py
-  visible: false
-- name: tests/output.txt
   visible: false

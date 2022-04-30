@@ -7,9 +7,9 @@ files:
     length: 16
     placeholder_text: '# TODO зафиксировать время до начала выполнения функции'
   - offset: 284
-    length: 64
+    length: 69
     placeholder_text: '# TODO зафиксировать время после выполнения'
-  - offset: 466
+  - offset: 471
     length: 15
     placeholder_text: '# TODO задекорировать функцию'
 - name: __init__.py

@@ -2,6 +2,10 @@ type: output
 files:
 - name: main.py
   visible: true
+  placeholders:
+  - offset: 31
+    length: 44
+    placeholder_text: '...  # TODO реализовать аналог enumerate через zip и range'
 - name: __init__.py
   visible: false
 - name: tests/output.txt

@@ -10,7 +10,7 @@ def time_decorator(fn):
         t0 = time.time()
         result = fn(*args, **kwargs)
         dt = time.time() - t0
-        print(f"Функция выполнялась {dt}")
+        print(f"Функция выполнялась {dt:.10f}")
 
         print("Этот код будет выполняться после каждого вызова функции")
         return result

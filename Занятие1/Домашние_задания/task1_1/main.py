@@ -1,3 +1,7 @@
+def enumerate_(iterable_):
+    return zip(range(len(iterable_)), iterable_)
+
+
 if __name__ == "__main__":
-    # Write your solution here
-    pass
+    for index, value in enumerate_("abc"):
+        print(index, value)

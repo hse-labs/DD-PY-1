@@ -1,10 +1,10 @@
 if __name__ == "__main__":
     tuple_ = (1, 2, 3)
 
-    print(tuple_)  # print((1, 2, 3))
-    print(*tuple_)  # print(1, 2, 3)
+    print("Передаем кортеж как единое целое:", tuple_)  # print((1, 2, 3))
+    print("Передаем значения кортежа:", *tuple_)  # print(1, 2, 3)
 
     list_ = [1, 2, 3]
 
-    print(list_)  # print([1, 2, 3])
-    print(*list_)  # print(1, 2, 3)
+    print("Передаем список как единое целое:", list_)  # print([1, 2, 3])
+    print("Передаем значения списка:", *list_)  # print(1, 2, 3)

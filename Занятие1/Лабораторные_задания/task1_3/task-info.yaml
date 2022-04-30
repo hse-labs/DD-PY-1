@@ -5,7 +5,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 149
+  - offset: 144
     length: 24
     placeholder_text: '...  # используй ключевую у функции min, по которой она долна
       определять минимальный элемент'
