@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 238
+    length: 412
     placeholder_text: |-
       # TODO написать функцию remove
       def remove():
