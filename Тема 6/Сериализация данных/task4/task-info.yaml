@@ -4,16 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 93
-    length: 60
+    length: 78
     placeholder_text: '...  # TODO считать содержимое файла из аргумента input_filename'
-  - offset: 159
-    length: 95
+  - offset: 177
+    length: 113
     placeholder_text: '...  # TODO записать содержимое в файл из аргумента output_filename'
 - name: __init__.py
   visible: false
 - name: tests/output.txt
   visible: false
 - name: input.json
-  visible: true
-- name: output.json
   visible: true
