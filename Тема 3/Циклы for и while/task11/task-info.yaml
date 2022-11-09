@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 21
-    length: 99
+  - offset: 20
+    length: 113
     placeholder_text: '# TODO посчитать количество действий над числом согласно условию'
 - name: __init__.py
   visible: false
