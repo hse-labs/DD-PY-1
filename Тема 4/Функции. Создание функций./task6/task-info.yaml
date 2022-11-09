@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 79
+    length: 179
+    placeholder_text: '...  # TODO проверить что в строку входят только символы 1
+      и 0'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

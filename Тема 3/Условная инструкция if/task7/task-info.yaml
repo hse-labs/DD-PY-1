@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 11
+    length: 2
+    placeholder_text: '...'
+  - offset: 60
+    length: 3
+    placeholder_text: '...'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

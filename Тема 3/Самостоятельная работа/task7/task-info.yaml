@@ -1,0 +1,19 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 195
+    length: 255
+    placeholder_text: |-
+      # TODO переписать на цикл с постусловием
+      while sum_ < max_sum:  # делай пока ...
+          sum_ += n  # увеличиваем сумму, равносильно sum_ = sum_ + n
+          n += 1  # так как сумма ещё не достигла нужного значения, то увеличиваем переменную счетчик
+          print("Ещё считаю ...", sum_)
+
+      print("Количество чисел: ", n)
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

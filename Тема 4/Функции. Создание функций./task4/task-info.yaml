@@ -1,0 +1,20 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 97
+    placeholder_text: |-
+      # TODO оформить решение в виде функции
+      count_stairs = 4
+      for i in range(1, count_stairs + 1):
+          print("*" * i)
+  - offset: 100
+    length: 31
+    placeholder_text: '# TODO вызвать функцию без аргументов и с аргументом равным
+      10'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

@@ -1,0 +1,20 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 251
+    placeholder_text: |-
+      # TODO решите задачу
+      def task() -> float:
+          ...
+
+
+      print(task())
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: input.json
+  visible: true

@@ -1,0 +1,19 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 43
+    length: 84
+    placeholder_text: '# TODO завести отдельные счетчики для четных и нечетных чисел'
+  - offset: 129
+    length: 123
+    placeholder_text: '# TODO с помощью одного цикла перебрать все числа и посчитать
+      количество четных и нечетных'
+  - offset: 254
+    length: 182
+    placeholder_text: '# TODO вывести каких чисел больше'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

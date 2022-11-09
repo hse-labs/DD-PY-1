@@ -1,0 +1,14 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 331
+    length: 189
+    placeholder_text: '...  # TODO подсчитать количество выпаданий орлов и решек'
+  - offset: 526
+    length: 95
+    placeholder_text: '# TODO разделить минимальное число среди орлов и решек на максимальное
+      число и сохранить результат'
+- name: __init__.py
+  visible: false

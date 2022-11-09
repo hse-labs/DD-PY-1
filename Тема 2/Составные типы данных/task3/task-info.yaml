@@ -1,0 +1,27 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 13
+    length: 18
+    placeholder_text: '...  # TODO сформировать список цифр'
+  - offset: 71
+    length: 16
+    placeholder_text: '...)  # TODO сумма цифр'
+  - offset: 113
+    length: 16
+    placeholder_text: '...)  # TODO количество цифр'
+  - offset: 157
+    length: 16
+    placeholder_text: '...)  # TODO минимальная цифра'
+  - offset: 202
+    length: 16
+    placeholder_text: '...)  # TODO максимальная цифра'
+  - offset: 256
+    length: 44
+    placeholder_text: '...)  # TODO среднее арифметическое цифр'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

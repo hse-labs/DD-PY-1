@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 43
+    length: 155
+    placeholder_text: '...  # TODO проверить что число шестизначное и положительное'
+  - offset: 204
+    length: 104
+    placeholder_text: '...  # TODO проверить счастливое число или нет'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

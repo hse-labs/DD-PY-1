@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 59
+    length: 48
+    placeholder_text: '# TODO распечатать в столбик все имена'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

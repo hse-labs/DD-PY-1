@@ -1,0 +1,18 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 134
+    length: 53
+    placeholder_text: '...  # TODO отсортировать и вернуть список словарей'
+  - offset: 204
+    length: 33
+    placeholder_text: '# TODO распечатать json строку отформатированную с отступами
+      равными 4'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: input.json
+  visible: true

@@ -1,0 +1,16 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 302
+    length: 100
+    placeholder_text: '# TODO посчитать средний возраст'
+  - offset: 404
+    length: 74
+    placeholder_text: '# TODO распечатать список словарей студентов, возраст которых
+      меньше среднего'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

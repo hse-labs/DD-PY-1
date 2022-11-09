@@ -1,0 +1,23 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 14
+    length: 268
+    placeholder_text: |-
+      # TODO переписать через if-elif-else
+      if x > 0:
+          if y > 0:               # x > 0, y > 0
+              print("Первая четверть")
+          else:                   # x > 0, y < 0
+              print("Четвертая четверть")
+      else:
+          if y > 0:               # x < 0, y > 0
+              print("Вторая четверть")
+          else:                   # x < 0, y < 0
+              print("Третья четверть")
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

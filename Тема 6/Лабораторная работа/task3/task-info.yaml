@@ -1,0 +1,10 @@
+type: output
+files:
+- name: __init__.py
+  visible: false
+- name: output.csv
+  visible: true
+- name: tests/output.txt
+  visible: false
+- name: main.py
+  visible: true

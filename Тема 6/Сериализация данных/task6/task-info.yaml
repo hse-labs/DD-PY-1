@@ -1,0 +1,17 @@
+type: output
+files:
+- name: __init__.py
+  visible: false
+- name: input.json
+  visible: true
+- name: tests/output.txt
+  visible: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 64
+    length: 58
+    placeholder_text: '...  # TODO считать содержимое JSON файла'
+  - offset: 128
+    length: 102
+    placeholder_text: '...  # TODO просуммировать все значения по ключу contains_improvement_appeals'

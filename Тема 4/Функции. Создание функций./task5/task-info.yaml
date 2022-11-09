@@ -1,0 +1,26 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 9
+    placeholder_text: '# TODO Вынести константу pi'
+  - offset: 12
+    length: 90
+    placeholder_text: |-
+      # TODO убрать аргумент pi из функций и заменить его на константу из глобальной области видимости
+      def square_circle(r, pi):
+          return pi * r ** 2
+
+
+      def length_circle(r, pi):
+          return 2 * pi * r
+  - offset: 132
+    length: 61
+    placeholder_text: |-
+      # TODO подправить передаваемые аргументы
+      square = square_circle(radius, 3.14)
+      length = length_circle(radius, 3.14)
+- name: __init__.py
+  visible: false

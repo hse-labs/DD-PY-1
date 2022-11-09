@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 303
+    length: 71
+    placeholder_text: '# TODO  распечатать список кортежей'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

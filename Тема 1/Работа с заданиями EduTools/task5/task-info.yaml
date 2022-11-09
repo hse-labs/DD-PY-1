@@ -1,0 +1,17 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 14
+    placeholder_text: '# TODO распечатать на отдельной строке слово Hello'
+  - offset: 15
+    length: 14
+    placeholder_text: '# TODO распечатать на отдельной строке слово World'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: img.png
+  visible: false

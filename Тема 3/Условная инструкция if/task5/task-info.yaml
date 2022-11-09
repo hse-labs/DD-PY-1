@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 116
+    length: 18
+    placeholder_text: '...  # TODO проверить входит ли искомая строка в исходную'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

@@ -1,0 +1,13 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 122
+    placeholder_text: '# TODO заполнить список случайными числами'
+  - offset: 124
+    length: 88
+    placeholder_text: '# TODO посчитать количество отрицательных чисел'
+- name: __init__.py
+  visible: false

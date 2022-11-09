@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 8
+    length: 88
+    placeholder_text: '# TODO посчитать произведение чисел'
+  - offset: 0
+    length: 7
+    placeholder_text: '# TODO завести счетчик для произведения'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

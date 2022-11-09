@@ -1,0 +1,17 @@
+type: output
+files:
+- name: __init__.py
+  visible: false
+- name: input.csv
+  visible: true
+  placeholders:
+  - offset: 40
+    length: 377
+    placeholder_text: '# TODO вручную конверировать csv в json'
+  - offset: 420
+    length: 57
+    placeholder_text: '# TODO распечатать json строку'
+- name: tests/output.txt
+  visible: false
+- name: main.py
+  visible: true

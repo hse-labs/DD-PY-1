@@ -1,0 +1,18 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 243
+    placeholder_text: |-
+      # TODO продолжить заполнение словаря
+      dict_hex = {
+          '0x0': 0,
+          '0x1': 1,
+          '0x2': 2,
+      }
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

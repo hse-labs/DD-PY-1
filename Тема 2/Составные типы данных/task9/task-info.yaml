@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 132
+    placeholder_text: '# TODO записать словарь с описанием'
+- name: __init__.py
+  visible: false

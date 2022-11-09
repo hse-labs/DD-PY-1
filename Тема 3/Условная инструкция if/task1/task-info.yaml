@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 12
+    length: 4
+    placeholder_text: '...  # TODO поочередно подставьте значения True и False'
+- name: __init__.py
+  visible: false

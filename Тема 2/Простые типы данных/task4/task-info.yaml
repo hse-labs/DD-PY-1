@@ -1,0 +1,18 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 52
+    length: 11
+    placeholder_text: '...  # TODO Задать длину'
+  - offset: 72
+    length: 12
+    placeholder_text: '...  # TODO Задать ширину'
+  - offset: 98
+    length: 20
+    placeholder_text: '...  # TODO посчитать периметр прямоугольника'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

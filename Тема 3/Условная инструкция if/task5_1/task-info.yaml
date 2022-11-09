@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 172
+    length: 21
+    placeholder_text: '...)  # TODO проверить наличие искомого фрукта в корзине'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

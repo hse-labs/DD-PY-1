@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 58
+    length: 22
+    placeholder_text: '# TODO напечатать имя первого игрока'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

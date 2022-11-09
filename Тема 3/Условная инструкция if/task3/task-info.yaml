@@ -1,0 +1,24 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 61
+    length: 8
+    placeholder_text: '...)  # TODO записать условие с помощью операторов сравнения'
+  - offset: 91
+    length: 7
+    placeholder_text: '...)  # TODO записать условие с помощью операторов сравнения'
+  - offset: 141
+    length: 8
+    placeholder_text: '...)  # TODO записать условие с помощью операторов сравнения'
+  - offset: 181
+    length: 7
+    placeholder_text: '...)  # TODO записать условие с помощью операторов сравнения'
+  - offset: 209
+    length: 7
+    placeholder_text: '...)  # TODO записать условие с помощью операторов сравнения'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

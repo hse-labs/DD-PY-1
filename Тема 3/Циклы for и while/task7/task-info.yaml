@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 906
+    length: 80
+    placeholder_text: '# TODO посчитать количество русской буквы "а"'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

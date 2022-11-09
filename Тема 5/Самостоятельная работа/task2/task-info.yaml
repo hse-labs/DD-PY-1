@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 121
+    length: 11
+    placeholder_text: 'i * j  # TODO выровнять по ширине 3 по правому краю'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

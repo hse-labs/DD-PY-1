@@ -1,0 +1,16 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 29
+    length: 41
+    placeholder_text: '...  # TODO привести строку к единому регистру и избавиться
+      от пробелов'
+  - offset: 76
+    length: 32
+    placeholder_text: 'if ...:  # TODO проверка палиндрома'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

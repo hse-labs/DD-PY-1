@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 29
+    length: 4
+    placeholder_text: 'Foo)  # TODO исправить название переменной'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

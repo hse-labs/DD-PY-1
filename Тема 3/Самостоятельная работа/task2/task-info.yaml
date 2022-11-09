@@ -1,0 +1,25 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 36
+    length: 30
+    placeholder_text: '...  # TODO записать условие, что только первое число меньше
+      45'
+  - offset: 81
+    length: 30
+    placeholder_text: '...  # TODO записать условие, что только второе число меньше
+      45'
+  - offset: 161
+    length: 42
+    placeholder_text: '...:  # TODO объединить три условия с помощью нужного логического
+      оператора and или or'
+  - offset: 126
+    length: 30
+    placeholder_text: '...  # TODO записать условие, что только третье число меньше
+      45'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

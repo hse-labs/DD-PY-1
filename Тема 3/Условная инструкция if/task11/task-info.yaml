@@ -1,0 +1,25 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 27
+    length: 49
+    placeholder_text: |-
+      ...  # TODO записать словарь весенних месяцев, где ключ это номер месяца, а значение его название
+  - offset: 93
+    length: 9
+    placeholder_text: '...  # TODO записать список месяцев лета'
+  - offset: 119
+    length: 11
+    placeholder_text: '...  # TODO записать кортеж месяцев осени'
+  - offset: 147
+    length: 10
+    placeholder_text: '...  # TODO записать список месяцев зимы'
+  - offset: 252
+    length: 94
+    placeholder_text: '# TODO дописать условие elif для осени и зимы'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

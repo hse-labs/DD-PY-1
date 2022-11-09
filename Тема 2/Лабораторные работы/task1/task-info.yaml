@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 81
+    length: 136
+    placeholder_text: '# TODO найти сумму, количество и среднее арифметическое уникальных
+      чисел'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

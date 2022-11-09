@@ -1,0 +1,13 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 53
+    length: 24
+    placeholder_text: 'False = "Hello, World!"  # TODO исправьте название переменной,
+      чтобы её можно было использовать'
+- name: __init__.py
+  visible: false
+- name: img.png
+  visible: false

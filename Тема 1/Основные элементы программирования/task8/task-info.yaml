@@ -1,0 +1,16 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 17
+    placeholder_text: 'VarName = "test"  # TODO переименовать название переменной
+      в соответствии с PEP8'
+  - offset: 61
+    length: 16
+    placeholder_text: |-
+      CONST_VAR = "new_value"  # TODO убрать перезапись константы
+      print(CONST_VAR)
+- name: __init__.py
+  visible: false

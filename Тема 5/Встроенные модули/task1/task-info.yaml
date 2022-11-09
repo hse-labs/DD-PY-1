@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 32
+    placeholder_text: '# TODO импортировать Counter'
+  - offset: 585
+    length: 59
+    placeholder_text: '# TODO подсчитать и распечатать фрукты'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 27
+    placeholder_text: 'def task(num):  # TODO добавить аннотацию типов'
+  - offset: 32
+    length: 93
+    placeholder_text: '...  # TODO найти сумму цифр числа и понять двузначная ли она'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

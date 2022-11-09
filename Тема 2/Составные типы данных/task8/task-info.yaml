@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 57
+    length: 61
+    placeholder_text: '# TODO найти и распечатать количество уникальных символов в
+      строке'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

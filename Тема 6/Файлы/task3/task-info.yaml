@@ -1,0 +1,17 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 72
+    length: 130
+    placeholder_text: '...  # TODO построчно записать лесенку в файл'
+  - offset: 208
+    length: 89
+    placeholder_text: '...  # TODO построчно считать и распечатать лесенку из файла'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: output.txt
+  visible: true

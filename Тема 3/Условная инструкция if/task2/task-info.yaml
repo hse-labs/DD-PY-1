@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 105
+    length: 64
+    placeholder_text: '# TODO записать условный оператор, который распечатает строку'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

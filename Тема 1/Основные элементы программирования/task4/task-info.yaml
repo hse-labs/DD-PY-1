@@ -1,0 +1,21 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 15
+    placeholder_text: 1begin_with_char
+  - offset: 88
+    length: 16
+    placeholder_text: one word for var
+  - offset: 182
+    length: 22
+    placeholder_text: '# TODO распечатать содержимое первой переменной'
+  - offset: 205
+    length: 23
+    placeholder_text: '# TODO распечатать содержимое второй переменной'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

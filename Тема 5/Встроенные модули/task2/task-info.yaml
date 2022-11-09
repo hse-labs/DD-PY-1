@@ -1,0 +1,13 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 25
+    placeholder_text: '# TODO импортировать необходимую функцию из модуля random'
+  - offset: 85
+    length: 27
+    placeholder_text: '# TODO распечатать случайного игрока'
+- name: __init__.py
+  visible: false

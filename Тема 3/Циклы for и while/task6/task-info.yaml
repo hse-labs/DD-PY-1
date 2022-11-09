@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 338
+    length: 45
+    placeholder_text: '...  # TODO записать условие, что если встретили искомую оценку,
+      то счетчик увеличиваем на 1'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

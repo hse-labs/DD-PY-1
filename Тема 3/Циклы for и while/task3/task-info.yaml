@@ -1,0 +1,16 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 26
+    length: 27
+    placeholder_text: '...:  # TODO как получить последовательность целых чисел от
+      1 до 4 включительно?'
+  - offset: 58
+    length: 14
+    placeholder_text: '...  # TODO печать очередной ступени'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

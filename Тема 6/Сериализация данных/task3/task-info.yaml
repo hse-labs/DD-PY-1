@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 52
+    length: 33
+    placeholder_text: '{}  # TODO c помощью dict comprehension сформировать словарь'
+  - offset: 90
+    length: 41
+    placeholder_text: '...  # TODO сериализовать словарь в JSON строку и вернуть её'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

@@ -1,0 +1,15 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 15
+    length: 6
+    placeholder_text: '...  # TODO найти площадь квадрата'
+  - offset: 23
+    length: 13
+    placeholder_text: '# TODO распечатать результат'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

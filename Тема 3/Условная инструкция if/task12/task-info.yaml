@@ -1,0 +1,13 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 210
+    length: 49
+    placeholder_text: '# TODO добавить блок else и выдавать пользователю сообщение
+      "Такого месяца не существует :("'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

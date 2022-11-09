@@ -1,0 +1,17 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 64
+    length: 58
+    placeholder_text: '...  # TODO считать содержимое JSON файла'
+  - offset: 128
+    length: 53
+    placeholder_text: '...  # TODO найти максимальный элемент по ключу score'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: input.json
+  visible: true

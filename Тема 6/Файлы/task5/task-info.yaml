@@ -1,0 +1,16 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 70
+    length: 177
+    placeholder_text: '...  # TODO перезаписать содержимое одного файла в другой'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: input.txt
+  visible: true
+- name: output.txt
+  visible: true

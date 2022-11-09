@@ -1,0 +1,12 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 6
+    placeholder_text: 'sq=4  # TODO добавить отступы до и после оператора присваивания'
+- name: __init__.py
+  visible: false
+- name: img.png
+  visible: false

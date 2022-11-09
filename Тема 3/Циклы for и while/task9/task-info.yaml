@@ -1,0 +1,12 @@
+type: output
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 437
+    length: 81
+    placeholder_text: '# TODO распечатать фамилии и их номера'
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false

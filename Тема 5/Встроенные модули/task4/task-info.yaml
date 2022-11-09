@@ -1,0 +1,10 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 237
+    placeholder_text: '# TODO написать функцию, которая выдает трехзначное число'
+- name: __init__.py
+  visible: false

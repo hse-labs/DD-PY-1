@@ -1,0 +1,22 @@
+type: output
+files:
+- name: __init__.py
+  visible: false
+- name: tests/output.txt
+  visible: false
+- name: output.json
+  visible: true
+- name: input.csv
+  visible: true
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 22
+    placeholder_text: '# TODO импортировать необходимые молули'
+  - offset: 112
+    length: 84
+    placeholder_text: '...  # TODO считать содержимое csv файла'
+  - offset: 202
+    length: 75
+    placeholder_text: '...  # TODO записать список словарей в json файл'
