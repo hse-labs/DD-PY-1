@@ -21,4 +21,4 @@ students_list = [
     },
 ]
 
-print(sorted(students_list, key=lambda item: item["age"]))
+print(sorted(students_list, key=lambda item: item["name"]))
